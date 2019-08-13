@@ -10,3 +10,12 @@ password :- Newpassword@46
 cd C:\Program Files (x86)\Jenkins
 java -jar jenkins.war --httpPort=9090
 
+passphrase github : something
+
+
+echo "# Jenkins_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:prasadrayudu/Jenkins_test.git
+git push -u origin master
