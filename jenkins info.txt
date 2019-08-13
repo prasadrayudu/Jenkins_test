@@ -1,0 +1,12 @@
+
+
+Jenkins Info
+
+port 9090
+
+username : - prasadrayudu
+password :- Newpassword@46
+
+cd C:\Program Files (x86)\Jenkins
+java -jar jenkins.war --httpPort=9090
+
